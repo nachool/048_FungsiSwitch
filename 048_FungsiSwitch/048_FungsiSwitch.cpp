@@ -49,7 +49,28 @@ int main()
         cout << "Masukkan menu pilihan : " << endl;
         cin >> pilihan;
 
-        
+        switch (pilihan)
+        {
+        case 1:
+            input;
+            cout << "Hasil penjumlahan = " << penjumlahan(bilA, bilB) << endl;
+            break;
+
+        case 2:
+            input;
+            cout << "Hasil pengurangan = " << pengurangan(bilA, bilB) << endl;
+            break;
+
+        case 3:
+            input;
+            cout << "Hasil perkalian = " << perkalian(bilA, bilB) << endl;
+            break;
+
+        case 4:
+            input;
+            cout << "Hasil pembagian = " << pembagian(bilA, bilB) << endl;
+            break;
+        }
     } 
-}
+} 
 
